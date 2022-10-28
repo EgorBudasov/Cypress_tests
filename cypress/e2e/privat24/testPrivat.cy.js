@@ -23,7 +23,7 @@ it('Test transver', () => {
 
 });
 
-it.only('mobile payment', () => {
+it('mobile payment', () => {
     cy.visit('https://next.privat24.ua/mobile');
 
     mobilePayment.typePhone('992374432');
@@ -38,7 +38,4 @@ it.only('mobile payment', () => {
     
 
 });
- it('Api test', () =>{
 
-    
- })
