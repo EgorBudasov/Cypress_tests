@@ -38,7 +38,4 @@ it.only('mobile payment', () => {
     
 
 });
- it('Api test', () =>{
-
-    
- })
+ 
